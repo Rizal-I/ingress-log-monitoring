@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: portainer-ingress
-  namespace: monitoring
+  namespace: portainer
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
